@@ -1,0 +1,165 @@
+<span class="count">
+
+[6 /
+6]
+[Total 266]
+</span>
+<p class="sort">
+  <a href="#sort"  onclick="goSort('/companyDirectory/search.ax','cmpy','ASC');return false;"><span>company</span></a>
+  <a href="#sort"  onclick="goSort('/companyDirectory/search.ax','symbol','ASC');return false;"><span>symbol</span></a>
+</p>
+<form id="listForm" name="listForm">
+  <input type="hidden" name="pageNo" id="pageNo" value=""/>
+  <input type="hidden" name="companyId" id="companyId" value=""/>
+  <input type="hidden" name="keyword" id="keyword" value=""/>
+  <input type="hidden" name="sortType" id="sortMode" value=""/>
+  <input type="hidden" name="dateSortType" id="dateSortType" value="DESC"/>
+  <input type="hidden" name="cmpySortType" id="cmpySortType" value="ASC"/>
+  <input type="hidden" name="symbolSortType" id="symbolSortType" value="ASC"/>
+  <input type="hidden" name="sector" id="sector" value="ALL"/>
+  <input type="hidden" name="subsector" id="subsector" value="ALL"/>
+</form>
+<table class="list">
+<colgroup>
+  <col width="35%"/>
+  <col width="10%"/>
+  <col width="15%"/>
+  <col width="30%"/>
+  <col width="10%"/>
+</colgroup>
+<thead>
+  <tr>
+    <th>Company Name</th>
+    <th>Stock Symbol</th>
+    <th>Sector</th>
+    <th>Subsector</th>
+    <th>Listing Date</th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('167','115');return false;">Union Bank of the Philippines, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('167','115');return false;">UBP</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">Jun 29, 1992</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('168','334');return false;">United Paragon Mining Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('168','334');return false;">UPM</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Apr 02, 1973</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('124','167');return false;">Universal Robina Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('124','167');return false;">URC</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Mar 25, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('170','226');return false;">Uniwide Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('170','226');return false;">UW</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Aug 19, 1996</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('65','135');return false;">Vantage Equities, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('65','135');return false;">V</a></td>
+      <td>Financials</td>
+      <td>Other Financial Institutions</td>
+      <td class="alignC">Mar 30, 1993</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('123','415');return false;">Victorias Milling Company, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('123','415');return false;">VMC</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Nov 15, 1993</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('607','530');return false;">Vista Land &amp; Lifescapes, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('607','530');return false;">VLL</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Jun 25, 2007</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('28','168');return false;">Vitarich Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('28','168');return false;">VITA</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Feb 08, 1995</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('79','133');return false;">Vivant Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('79','133');return false;">VVT</a></td>
+      <td>Industrial</td>
+      <td>Electricity, Energy, Power &amp; Water</td>
+      <td class="alignC">Jun 23, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('46','346');return false;">Vulcan Industrial &amp; Mining Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('46','346');return false;">VUL</a></td>
+      <td>Industrial</td>
+      <td>Construction, Infra. &amp; Allied Services</td>
+      <td class="alignC">Aug 31, 1970</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('173','228');return false;">Waterfront Philippines, Incorporated</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('173','228');return false;">WPI</a></td>
+      <td>Services</td>
+      <td>Hotel &amp; Leisure</td>
+      <td class="alignC">Mar 17, 1995</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('90','229');return false;">Wellex Industries, Incorporated</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('90','229');return false;">WIN</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Jan 09, 1958</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('656','607');return false;">Xurpas Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('656','607');return false;">X</a></td>
+      <td>Small, Medium &amp; Emerging Board</td>
+      <td>Small, Medium &amp; Emerging Board</td>
+      <td class="alignC">Dec 02, 2014</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('638','581');return false;">YEHEY! Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('638','581');return false;">YEHEY</a></td>
+      <td>Services</td>
+      <td>Information Technology</td>
+      <td class="alignC">Oct 18, 2012</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('89','232');return false;">Zeus Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('89','232');return false;">ZHI</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Jul 15, 1991</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('85','205');return false;">iPeople, inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('85','205');return false;">IPO</a></td>
+      <td>Services</td>
+      <td>Education</td>
+      <td class="alignC">Jan 24, 1990</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="paging"><a href="#" onclick="goPage(1);return false;"><img src="/images/common/icon_first.gif" alt="first page"/></a>
+<a href="#" onclick="return false;"><img src="/images/common/icon_prev.gif" alt="prev block"/></a>
+<span><a href="#" onclick="goPage(1);return false;" >1</a></span>
+<span><a href="#" onclick="goPage(2);return false;" >2</a></span>
+<span><a href="#" onclick="goPage(3);return false;" >3</a></span>
+<span><a href="#" onclick="goPage(4);return false;" >4</a></span>
+<span><a href="#" onclick="goPage(5);return false;" >5</a></span>
+<span>6</span>
+<a href="#" onclick="return false;"><img src="/images/common/icon_next.gif" alt="next block"/></a>
+<a href="#" onclick="return false;"><img src="/images/common/icon_end.gif" alt="last page"/></a></div>

@@ -1,0 +1,403 @@
+<span class="count">
+
+[1 /
+6]
+[Total 266]
+</span>
+<p class="sort">
+  <a href="#sort"  onclick="goSort('/companyDirectory/search.ax','cmpy','ASC');return false;"><span>company</span></a>
+  <a href="#sort"  onclick="goSort('/companyDirectory/search.ax','symbol','ASC');return false;"><span>symbol</span></a>
+</p>
+<form id="listForm" name="listForm">
+  <input type="hidden" name="pageNo" id="pageNo" value=""/>
+  <input type="hidden" name="companyId" id="companyId" value=""/>
+  <input type="hidden" name="keyword" id="keyword" value=""/>
+  <input type="hidden" name="sortType" id="sortMode" value=""/>
+  <input type="hidden" name="dateSortType" id="dateSortType" value="DESC"/>
+  <input type="hidden" name="cmpySortType" id="cmpySortType" value="ASC"/>
+  <input type="hidden" name="symbolSortType" id="symbolSortType" value="ASC"/>
+  <input type="hidden" name="sector" id="sector" value="ALL"/>
+  <input type="hidden" name="subsector" id="subsector" value="ALL"/>
+</form>
+<table class="list">
+<colgroup>
+  <col width="35%"/>
+  <col width="10%"/>
+  <col width="15%"/>
+  <col width="30%"/>
+  <col width="10%"/>
+</colgroup>
+<thead>
+  <tr>
+    <th>Company Name</th>
+    <th>Stock Symbol</th>
+    <th>Sector</th>
+    <th>Subsector</th>
+    <th>Listing Date</th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('29','146');return false;">2GO Group, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('29','146');return false;">2GO</a></td>
+      <td>Services</td>
+      <td>Transportation Services</td>
+      <td class="alignC">May 15, 1995</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('626','563');return false;">8990 Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('626','563');return false;">HOUSE</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Dec 09, 2010</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('13','234');return false;">A Brown Company, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('13','234');return false;">BRN</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Feb 08, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('14','169');return false;">A. Soriano Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('14','169');return false;">ANS</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Oct 25, 1973</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('114','123');return false;">ABS-CBN Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('114','123');return false;">ABS</a></td>
+      <td>Services</td>
+      <td>Media</td>
+      <td class="alignC">Jul 08, 1992</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('15','259');return false;">ABS-CBN Holdings Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('15','259');return false;">ABSP</a></td>
+      <td>Services</td>
+      <td>Media</td>
+      <td class="alignC">Oct 07, 1999</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('643','586');return false;">AG Finance, Incorporated</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('643','586');return false;">AGF</a></td>
+      <td>Financials</td>
+      <td>Other Financial Institutions</td>
+      <td class="alignC">Aug 13, 2013</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('177','182');return false;">APC Group, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('177','182');return false;">APC</a></td>
+      <td>Services</td>
+      <td>Other Services</td>
+      <td class="alignC">Mar 08, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('56','176');return false;">ATN Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('56','176');return false;">ATN</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Sep 24, 1970</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('174','173');return false;">AbaCore Capital Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('174','173');return false;">ABA</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Oct 28, 1987</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('16','183');return false;">Aboitiz Equity Ventures, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('16','183');return false;">AEV</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Nov 16, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('609','532');return false;">Aboitiz Power Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('609','532');return false;">AP</a></td>
+      <td>Industrial</td>
+      <td>Electricity, Energy, Power &amp; Water</td>
+      <td class="alignC">Jul 16, 2007</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('33','321');return false;">Abra Mining and Industrial Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('33','321');return false;">AR</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Dec 24, 1969</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('48','370');return false;">Acesite (Phils.) Hotel Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('48','370');return false;">ACE</a></td>
+      <td>Services</td>
+      <td>Hotel &amp; Leisure</td>
+      <td class="alignC">Dec 05, 1986</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('619','547');return false;">AgriNurture, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('619','547');return false;">ANI</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">May 25, 2009</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('212','179');return false;">Alliance Global Group, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('212','179');return false;">AGI</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Apr 19, 1999</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('602','524');return false;">Alliance Select Foods International, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('602','524');return false;">FOOD</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Nov 08, 2006</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('51','348');return false;">Allied Banking Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('51','348');return false;">ABC</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">Jun 04, 1982</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('121','170');return false;">Alsons Consolidated Resources, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('121','170');return false;">ACR</a></td>
+      <td>Industrial</td>
+      <td>Electricity, Energy, Power &amp; Water</td>
+      <td class="alignC">Apr 12, 1993</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('620','548');return false;">Alterra Capital Partners, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('620','548');return false;">ALT</a></td>
+      <td>Small, Medium &amp; Emerging Board</td>
+      <td>Small, Medium &amp; Emerging Board</td>
+      <td class="alignC">Sep 03, 2009</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('612','536');return false;">Anchor Land Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('612','536');return false;">ALHI</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Aug 08, 2007</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('52','171');return false;">Anglo Philippine Holdings Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('52','171');return false;">APO</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Jul 31, 1959</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('178','318');return false;">Apex Mining Co., Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('178','318');return false;">APX</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Mar 07, 1974</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('38','294');return false;">Araneta Properties, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('38','294');return false;">ARA</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Nov 14, 1989</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('172','316');return false;">Arthaland Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('172','316');return false;">ALCO</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Mar 19, 1996</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('55','347');return false;">Asia Amalgamated Holdings Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('55','347');return false;">AAA</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Mar 22, 1973</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('641','584');return false;">Asia United Bank Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('641','584');return false;">AUB</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">May 17, 2013</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('176','350');return false;">Asiabest Group International Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('176','350');return false;">ABG</a></td>
+      <td>Industrial</td>
+      <td>Construction, Infra. &amp; Allied Services</td>
+      <td class="alignC">Jul 10, 1979</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('53','141');return false;">Asian Terminals, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('53','141');return false;">ATI</a></td>
+      <td>Services</td>
+      <td>Transportation Services</td>
+      <td class="alignC">Jan 25, 1996</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('34','320');return false;">Atlas Consolidated Mining and Development Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('34','320');return false;">AT</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Nov 17, 1970</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('19','181');return false;">Atok-Big Wedge Co., Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('19','181');return false;">AB</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Jan 08, 1948</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('57','180');return false;">Ayala Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('57','180');return false;">AC</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Nov 08, 1976</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('180','293');return false;">Ayala Land, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('180','293');return false;">ALI</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Jul 05, 1991</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('31','121');return false;">BDO Leasing and Finance, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('31','121');return false;">BLFI</a></td>
+      <td>Financials</td>
+      <td>Other Financial Institutions</td>
+      <td class="alignC">Jan 06, 1997</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('260','468');return false;">BDO Unibank, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('260','468');return false;">BDO</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">May 21, 2002</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('62','358');return false;">BHI Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('62','358');return false;">BH</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Apr 02, 1973</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('234','101');return false;">Bank of the Philippine Islands</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('234','101');return false;">BPI</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">Oct 12, 1971</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('60','188');return false;">Basic Energy Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('60','188');return false;">BSC</a></td>
+      <td>Mining and Oil</td>
+      <td>Oil</td>
+      <td class="alignC">Oct 16, 1973</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('21','252');return false;">Belle Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('21','252');return false;">BEL</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Feb 02, 1977</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('108','353');return false;">Benguet Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('108','353');return false;">BC</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Jan 04, 1950</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('9','391');return false;">Berjaya Philippines Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('9','391');return false;">BCOR</a></td>
+      <td>Services</td>
+      <td>Casinos &amp; Gaming</td>
+      <td class="alignC">Nov 29, 1948</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('49','233');return false;">Bloomberry Resorts Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('49','233');return false;">BLOOM</a></td>
+      <td>Services</td>
+      <td>Casinos &amp; Gaming</td>
+      <td class="alignC">Oct 17, 2000</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('181','359');return false;">Bogo Medellin Milling Company, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('181','359');return false;">BMM</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Sep 28, 1950</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('63','187');return false;">Boulevard Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('63','187');return false;">BHI</a></td>
+      <td>Services</td>
+      <td>Hotel &amp; Leisure</td>
+      <td class="alignC">Apr 28, 1997</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('66','116');return false;">Bright Kindle Resources &amp; Investments Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('66','116');return false;">BKR</a></td>
+      <td>Financials</td>
+      <td>Other Financial Institutions</td>
+      <td class="alignC">Mar 21, 1995</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('601','522');return false;">COL Financial Group, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('601','522');return false;">COL</a></td>
+      <td>Financials</td>
+      <td>Other Financial Institutions</td>
+      <td class="alignC">Jul 12, 2006</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('636','576');return false;">Calata Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('636','576');return false;">CAL</a></td>
+      <td>Services</td>
+      <td>Retail</td>
+      <td class="alignC">May 23, 2012</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('624','560');return false;">Cebu Air, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('624','560');return false;">CEB</a></td>
+      <td>Services</td>
+      <td>Transportation Services</td>
+      <td class="alignC">Oct 26, 2010</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('110','298');return false;">Cebu Holdings, Incorporated</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('110','298');return false;">CHI</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Feb 14, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('182','296');return false;">Cebu Property Ventures and Development Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('182','296');return false;">CPV</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Mar 03, 1992</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="paging"><a href="#" onclick="return false;"><img src="/images/common/icon_first.gif" alt="first page"/></a>
+<a href="#" onclick="return false;"><img src="/images/common/icon_prev.gif" alt="prev block"/></a>
+<span>1</span>
+<span><a href="#" onclick="goPage(2);return false;" >2</a></span>
+<span><a href="#" onclick="goPage(3);return false;" >3</a></span>
+<span><a href="#" onclick="goPage(4);return false;" >4</a></span>
+<span><a href="#" onclick="goPage(5);return false;" >5</a></span>
+<span><a href="#" onclick="goPage(6);return false;" >6</a></span>
+<a href="#" onclick="return false;"><img src="/images/common/icon_next.gif" alt="next block"/></a>
+<a href="#" onclick="goPage(6);return false;"><img src="/images/common/icon_end.gif" alt="last page"/></a></div>

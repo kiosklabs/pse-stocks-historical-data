@@ -1,0 +1,403 @@
+<span class="count">
+
+[5 /
+6]
+[Total 266]
+</span>
+<p class="sort">
+  <a href="#sort"  onclick="goSort('/companyDirectory/search.ax','cmpy','ASC');return false;"><span>company</span></a>
+  <a href="#sort"  onclick="goSort('/companyDirectory/search.ax','symbol','ASC');return false;"><span>symbol</span></a>
+</p>
+<form id="listForm" name="listForm">
+  <input type="hidden" name="pageNo" id="pageNo" value=""/>
+  <input type="hidden" name="companyId" id="companyId" value=""/>
+  <input type="hidden" name="keyword" id="keyword" value=""/>
+  <input type="hidden" name="sortType" id="sortMode" value=""/>
+  <input type="hidden" name="dateSortType" id="dateSortType" value="DESC"/>
+  <input type="hidden" name="cmpySortType" id="cmpySortType" value="ASC"/>
+  <input type="hidden" name="symbolSortType" id="symbolSortType" value="ASC"/>
+  <input type="hidden" name="sector" id="sector" value="ALL"/>
+  <input type="hidden" name="subsector" id="subsector" value="ALL"/>
+</form>
+<table class="list">
+<colgroup>
+  <col width="35%"/>
+  <col width="10%"/>
+  <col width="15%"/>
+  <col width="30%"/>
+  <col width="10%"/>
+</colgroup>
+<thead>
+  <tr>
+    <th>Company Name</th>
+    <th>Stock Symbol</th>
+    <th>Sector</th>
+    <th>Subsector</th>
+    <th>Listing Date</th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('608','531');return false;">Phoenix Petroleum Philippines, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('608','531');return false;">PNX</a></td>
+      <td>Industrial</td>
+      <td>Electricity, Energy, Power &amp; Water</td>
+      <td class="alignC">Jul 11, 2007</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('655','605');return false;">Phoenix Semiconductor Philippines Corp.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('655','605');return false;">PSPC</a></td>
+      <td>Industrial</td>
+      <td>Electrical Components &amp; Equipment</td>
+      <td class="alignC">Dec 01, 2014</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('148','258');return false;">Premiere Horizon Alliance Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('148','258');return false;">PHA</a></td>
+      <td>Services</td>
+      <td>Other Services</td>
+      <td class="alignC">May 05, 1997</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('158','344');return false;">Premium Leisure Corp.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('158','344');return false;">PLC</a></td>
+      <td>Services</td>
+      <td>Casinos &amp; Gaming</td>
+      <td class="alignC">Aug 28, 1995</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('30','106');return false;">Prime Media Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('30','106');return false;">PRIM</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Jul 29, 1964</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('26','202');return false;">Prime Orion Philippines, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('26','202');return false;">POPI</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Feb 28, 1990</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('111','311');return false;">Primetown Property Group, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('111','311');return false;">PMT</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Dec 08, 1995</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('214','419');return false;">Primex Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('214','419');return false;">PRMX</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Aug 10, 2001</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('150','246');return false;">Pryce Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('150','246');return false;">PPC</a></td>
+      <td>Industrial</td>
+      <td>Chemicals</td>
+      <td class="alignC">Oct 29, 1991</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('629','567');return false;">Puregold Price Club, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('629','567');return false;">PGOLD</a></td>
+      <td>Services</td>
+      <td>Retail</td>
+      <td class="alignC">Oct 05, 2011</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('77','164');return false;">RFM Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('77','164');return false;">RFM</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Feb 21, 1966</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('153','153');return false;">Republic Glass Holdings Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('153','153');return false;">REG</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Jul 17, 1959</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('232','113');return false;">Rizal Commercial Banking Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('232','113');return false;">RCB</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">Nov 06, 1986</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('195','312');return false;">Robinsons Land Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('195','312');return false;">RLC</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Oct 16, 1989</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('646','589');return false;">Robinsons Retail Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('646','589');return false;">RRHI</a></td>
+      <td>Services</td>
+      <td>Retail</td>
+      <td class="alignC">Nov 21, 2013</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('635','574');return false;">Rockwell Land Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('635','574');return false;">ROCK</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">May 11, 2012</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('64','250');return false;">Roxas Holdings,  Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('64','250');return false;">ROX</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Aug 08, 1996</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('54','363');return false;">Roxas and Company, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('54','363');return false;">RCI</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Nov 29, 1948</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('658','612');return false;">SBS Philippines Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('658','612');return false;">SBS</a></td>
+      <td>Services</td>
+      <td>Other Services</td>
+      <td class="alignC">Aug 10, 2015</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('599','520');return false;">SM Investments Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('599','520');return false;">SM</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Mar 22, 2005</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('112','314');return false;">SM Prime Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('112','314');return false;">SMPH</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Jul 05, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('161','345');return false;">SOCResources, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('161','345');return false;">SOC</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Jan 05, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('237','466');return false;">SPC Power Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('237','466');return false;">SPC</a></td>
+      <td>Industrial</td>
+      <td>Electricity, Energy, Power &amp; Water</td>
+      <td class="alignC">Apr 02, 2002</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('654','604');return false;">SSI Group, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('654','604');return false;">SSI</a></td>
+      <td>Services</td>
+      <td>Retail</td>
+      <td class="alignC">Nov 07, 2014</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('222','376');return false;">STI Education Systems Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('222','376');return false;">STI</a></td>
+      <td>Services</td>
+      <td>Education</td>
+      <td class="alignC">Oct 12, 1976</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('154','165');return false;">San Miguel Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('154','165');return false;">SMC</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Nov 05, 1948</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('151','161');return false;">San Miguel Pure Foods Company, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('151','161');return false;">PF</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Apr 02, 1973</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('156','223');return false;">Seafront Resources Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('156','223');return false;">SPM</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">May 07, 1974</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('32','114');return false;">Security Bank Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('32','114');return false;">SECB</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">Jun 08, 1995</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('157','396');return false;">Semirara Mining and Power Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('157','396');return false;">SCC</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Nov 28, 1983</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('218','301');return false;">Shang Properties, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('218','301');return false;">SHNG</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Jun 13, 1991</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('160','224');return false;">Solid Group, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('160','224');return false;">SGI</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Apr 26, 1948</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('614','539');return false;">Splash Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('614','539');return false;">SPH</a></td>
+      <td>Industrial</td>
+      <td>Other Industrials</td>
+      <td class="alignC">Nov 15, 2007</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('41','417');return false;">Sta. Lucia Land, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('41','417');return false;">SLI</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Sep 14, 1987</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('147','333');return false;">Starmalls, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('147','333');return false;">STR</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Nov 17, 1970</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('164','249');return false;">Steniel Manufacturing Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('164','249');return false;">STN</a></td>
+      <td>Industrial</td>
+      <td>Other Industrials</td>
+      <td class="alignC">Nov 22, 1993</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('78','122');return false;">Sun Life Financial Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('78','122');return false;">SLF</a></td>
+      <td>Financials</td>
+      <td>Other Financial Institutions</td>
+      <td class="alignC">Mar 24, 2000</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('73','254');return false;">Suntrust Home Developers, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('73','254');return false;">SUN</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Feb 11, 1959</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('479','513');return false;">Supercity Realty Development Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('479','513');return false;">SRDC</a></td>
+      <td>Industrial</td>
+      <td>Construction, Infra. &amp; Allied Services</td>
+      <td class="alignC">Dec 19, 2003</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('165','402');return false;">Swift Foods, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('165','402');return false;">SFI</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Nov 14, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('166','385');return false;">Synergy Grid &amp; Development Phils., Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('166','385');return false;">SGP</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">May 10, 1972</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('163','418');return false;">TKC Metals Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('163','418');return false;">T</a></td>
+      <td>Industrial</td>
+      <td>Construction, Infra. &amp; Allied Services</td>
+      <td class="alignC">Jul 20, 2001</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('478','512');return false;">The Philippine Stock Exchange, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('478','512');return false;">PSE</a></td>
+      <td>Financials</td>
+      <td>Other Financial Institutions</td>
+      <td class="alignC">Dec 15, 2003</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('45','341');return false;">The Philodrill Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('45','341');return false;">OV</a></td>
+      <td>Mining and Oil</td>
+      <td>Oil</td>
+      <td class="alignC">Sep 22, 1969</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('650','595');return false;">Top Frontier Investment Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('650','595');return false;">TFHI</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Jan 13, 2014</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('233','140');return false;">Trans-Asia Oil and Energy Development Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('233','140');return false;">TA</a></td>
+      <td>Industrial</td>
+      <td>Electricity, Energy, Power &amp; Water</td>
+      <td class="alignC">Jan 05, 1970</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('653','599');return false;">Trans-Asia Petroleum Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('653','599');return false;">TAPET</a></td>
+      <td>Mining and Oil</td>
+      <td>Oil</td>
+      <td class="alignC">Aug 28, 2014</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('269','511');return false;">Transpacific Broadband Group Int`l. Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('269','511');return false;">TBGI</a></td>
+      <td>Services</td>
+      <td>Information Technology</td>
+      <td class="alignC">Dec 12, 2003</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('645','588');return false;">Travellers International Hotel Group, Inc. </a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('645','588');return false;">RWM</a></td>
+      <td>Services</td>
+      <td>Casinos &amp; Gaming</td>
+      <td class="alignC">Nov 05, 2013</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('92','227');return false;">Unioil Resources &amp; Holdings Company, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('92','227');return false;">UNI</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Jul 27, 1987</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="paging"><a href="#" onclick="goPage(1);return false;"><img src="/images/common/icon_first.gif" alt="first page"/></a>
+<a href="#" onclick="return false;"><img src="/images/common/icon_prev.gif" alt="prev block"/></a>
+<span><a href="#" onclick="goPage(1);return false;" >1</a></span>
+<span><a href="#" onclick="goPage(2);return false;" >2</a></span>
+<span><a href="#" onclick="goPage(3);return false;" >3</a></span>
+<span><a href="#" onclick="goPage(4);return false;" >4</a></span>
+<span>5</span>
+<span><a href="#" onclick="goPage(6);return false;" >6</a></span>
+<a href="#" onclick="return false;"><img src="/images/common/icon_next.gif" alt="next block"/></a>
+<a href="#" onclick="goPage(6);return false;"><img src="/images/common/icon_end.gif" alt="last page"/></a></div>

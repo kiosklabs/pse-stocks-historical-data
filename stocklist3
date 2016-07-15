@@ -1,0 +1,403 @@
+<span class="count">
+
+[3 /
+6]
+[Total 266]
+</span>
+<p class="sort">
+  <a href="#sort"  onclick="goSort('/companyDirectory/search.ax','cmpy','ASC');return false;"><span>company</span></a>
+  <a href="#sort"  onclick="goSort('/companyDirectory/search.ax','symbol','ASC');return false;"><span>symbol</span></a>
+</p>
+<form id="listForm" name="listForm">
+  <input type="hidden" name="pageNo" id="pageNo" value=""/>
+  <input type="hidden" name="companyId" id="companyId" value=""/>
+  <input type="hidden" name="keyword" id="keyword" value=""/>
+  <input type="hidden" name="sortType" id="sortMode" value=""/>
+  <input type="hidden" name="dateSortType" id="dateSortType" value="DESC"/>
+  <input type="hidden" name="cmpySortType" id="cmpySortType" value="ASC"/>
+  <input type="hidden" name="symbolSortType" id="symbolSortType" value="ASC"/>
+  <input type="hidden" name="sector" id="sector" value="ALL"/>
+  <input type="hidden" name="subsector" id="subsector" value="ALL"/>
+</form>
+<table class="list">
+<colgroup>
+  <col width="35%"/>
+  <col width="10%"/>
+  <col width="15%"/>
+  <col width="30%"/>
+  <col width="10%"/>
+</colgroup>
+<thead>
+  <tr>
+    <th>Company Name</th>
+    <th>Stock Symbol</th>
+    <th>Sector</th>
+    <th>Subsector</th>
+    <th>Listing Date</th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('94','160');return false;">Ginebra San Miguel,  Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('94','160');return false;">GSMI</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Apr 18, 1995</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('224','190');return false;">Global Ferronickel Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('224','190');return false;">FNI</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Dec 14, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('193','307');return false;">Global-Estate Resorts, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('193','307');return false;">GERI</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Nov 23, 1995</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('129','384');return false;">Globalport 900, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('129','384');return false;">PORT</a></td>
+      <td>Services</td>
+      <td>Transportation Services</td>
+      <td class="alignC">Jun 09, 1948</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('69','127');return false;">Globe Telecom, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('69','127');return false;">GLO</a></td>
+      <td>Services</td>
+      <td>Telecommunications</td>
+      <td class="alignC">Aug 11, 1975</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('661','624');return false;">Golden Haven Memorial Park, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('661','624');return false;">HVN</a></td>
+      <td>Services</td>
+      <td>Other Services</td>
+      <td class="alignC">Jun 29, 2016</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('221','255');return false;">Grand Plaza Hotel Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('221','255');return false;">GPH</a></td>
+      <td>Services</td>
+      <td>Hotel &amp; Leisure</td>
+      <td class="alignC">Dec 10, 1992</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('132','243');return false;">Greenergy Holdings Incorporated</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('132','243');return false;">GREEN</a></td>
+      <td>Industrial</td>
+      <td>Electrical Components &amp; Equipment</td>
+      <td class="alignC">Sep 26, 1996</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('644','587');return false;">Harbor Star Shipping Services, Inc. </a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('644','587');return false;">TUGS</a></td>
+      <td>Services</td>
+      <td>Transportation Services</td>
+      <td class="alignC">Oct 30, 2013</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('211','155');return false;">Holcim Philippines, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('211','155');return false;">HLCM</a></td>
+      <td>Industrial</td>
+      <td>Construction, Infra. &amp; Allied Services</td>
+      <td class="alignC">Jun 17, 1996</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('82','203');return false;">House of Investments, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('82','203');return false;">HI</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Jul 02, 1962</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('613','538');return false;">I-Remit, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('613','538');return false;">I</a></td>
+      <td>Financials</td>
+      <td>Other Financial Institutions</td>
+      <td class="alignC">Oct 17, 2007</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('623','552');return false;">IP E-Game Ventures, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('623','552');return false;">EG</a></td>
+      <td>Services</td>
+      <td>Casinos &amp; Gaming</td>
+      <td class="alignC">Feb 17, 2010</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('4','218');return false;">IPM Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('4','218');return false;">IPM</a></td>
+      <td>Services</td>
+      <td>Other Services</td>
+      <td class="alignC">Jun 17, 1998</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('84','337');return false;">IRC Properties, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('84','337');return false;">IRC</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Feb 27, 1978</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('36','324');return false;">ISM Communications Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('36','324');return false;">ISM</a></td>
+      <td>Services</td>
+      <td>Information Technology</td>
+      <td class="alignC">Oct 01, 1975</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('201','336');return false;">Imperial Resources, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('201','336');return false;">IMP</a></td>
+      <td>Services</td>
+      <td>Information Technology</td>
+      <td class="alignC">Aug 31, 1970</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('622','551');return false;">Integrated Micro-Electronics, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('622','551');return false;">IMI</a></td>
+      <td>Industrial</td>
+      <td>Electrical Components &amp; Equipment</td>
+      <td class="alignC">Jan 21, 2010</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('83','142');return false;">International Container Terminal Services, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('83','142');return false;">ICT</a></td>
+      <td>Services</td>
+      <td>Transportation Services</td>
+      <td class="alignC">Mar 23, 1992</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('203','204');return false;">Ionics, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('203','204');return false;">ION</a></td>
+      <td>Industrial</td>
+      <td>Electrical Components &amp; Equipment</td>
+      <td class="alignC">Jul 18, 1995</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('204','128');return false;">Island Information &amp; Technology, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('204','128');return false;">IS</a></td>
+      <td>Services</td>
+      <td>Information Technology</td>
+      <td class="alignC">Feb 09, 1970</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('660','617');return false;">Italpinas Development Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('660','617');return false;">IDC</a></td>
+      <td>Small, Medium &amp; Emerging Board</td>
+      <td>Small, Medium &amp; Emerging Board</td>
+      <td class="alignC">Dec 07, 2015</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('210','207');return false;">JG Summit Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('210','207');return false;">JGS</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Aug 09, 1993</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('134','392');return false;">Jackstones, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('134','392');return false;">JAS</a></td>
+      <td>Services</td>
+      <td>Information Technology</td>
+      <td class="alignC">Oct 27, 1967</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('86','158');return false;">Jollibee Foods Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('86','158');return false;">JFC</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Jul 14, 1993</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('261','470');return false;">Jolliville Holdings Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('261','470');return false;">JOH</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Jun 17, 2002</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('87','208');return false;">Keppel Philippines Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('87','208');return false;">KPH</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Aug 26, 1987</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('88','306');return false;">Keppel Philippines Properties, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('88','306');return false;">KEP</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Sep 11, 1989</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('236','469');return false;">LBC Express Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('236','469');return false;">LBC</a></td>
+      <td>Services</td>
+      <td>Transportation Services</td>
+      <td class="alignC">Dec 21, 2001</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('205','379');return false;">LMG Chemicals Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('205','379');return false;">LMG</a></td>
+      <td>Industrial</td>
+      <td>Chemicals</td>
+      <td class="alignC">Jan 07, 1986</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('12','225');return false;">LT Group, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('12','225');return false;">LTG</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Nov 07, 1947</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('96','253');return false;">Leisure &amp; Resorts World Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('96','253');return false;">LR</a></td>
+      <td>Services</td>
+      <td>Casinos &amp; Gaming</td>
+      <td class="alignC">Apr 17, 1958</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('98','326');return false;">Lepanto Consolidated Mining Company</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('98','326');return false;">LC</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Apr 30, 1947</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('227','159');return false;">Liberty Flour Mills, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('227','159');return false;">LFM</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Jan 24, 1966</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('27','129');return false;">Liberty Telecoms Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('27','129');return false;">LIB</a></td>
+      <td>Services</td>
+      <td>Telecommunications</td>
+      <td class="alignC">Oct 17, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('37','377');return false;">Lodestar Investment Holdings Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('37','377');return false;">LIHC</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">May 26, 1989</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('61','186');return false;">Lopez Holdings Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('61','186');return false;">LPZ</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Nov 25, 1993</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('115','144');return false;">Lorenzo Shipping Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('115','144');return false;">LSC</a></td>
+      <td>Services</td>
+      <td>Transportation Services</td>
+      <td class="alignC">Jul 22, 1996</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('126','383');return false;">MEDCO Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('126','383');return false;">MED</a></td>
+      <td>Financials</td>
+      <td>Other Financial Institutions</td>
+      <td class="alignC">Nov 18, 1975</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('24','194');return false;">MJC Investments Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('24','194');return false;">MJIC</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Nov 11, 1955</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('131','309');return false;">MRC Allied, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('131','309');return false;">MRC</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">May 18, 1995</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('206','217');return false;">Mabuhay Holdings Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('206','217');return false;">MHC</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Oct 22, 1990</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('100','242');return false;">Mabuhay Vinyl Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('100','242');return false;">MVC</a></td>
+      <td>Industrial</td>
+      <td>Chemicals</td>
+      <td class="alignC">Feb 05, 1997</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('145','221');return false;">Macay Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('145','221');return false;">MACAY</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Jan 28, 1987</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('106','212');return false;">MacroAsia Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('106','212');return false;">MAC</a></td>
+      <td>Services</td>
+      <td>Transportation Services</td>
+      <td class="alignC">May 21, 1970</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('263','503');return false;">Makati Finance Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('263','503');return false;">MFIN</a></td>
+      <td>Small, Medium &amp; Emerging Board</td>
+      <td>Small, Medium &amp; Emerging Board</td>
+      <td class="alignC">Jan 06, 2003</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('117','382');return false;">Manila Broadcasting Company</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('117','382');return false;">MBC</a></td>
+      <td>Services</td>
+      <td>Media</td>
+      <td class="alignC">Oct 08, 1949</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('1','130');return false;">Manila Bulletin Publishing Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('1','130');return false;">MB</a></td>
+      <td>Services</td>
+      <td>Media</td>
+      <td class="alignC">Apr 18, 1990</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('118','137');return false;">Manila Electric Company</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('118','137');return false;">MER</a></td>
+      <td>Industrial</td>
+      <td>Electricity, Energy, Power &amp; Water</td>
+      <td class="alignC">Jan 08, 1992</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('102','256');return false;">Manila Jockey Club, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('102','256');return false;">MJC</a></td>
+      <td>Services</td>
+      <td>Casinos &amp; Gaming</td>
+      <td class="alignC">Oct 11, 1963</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="paging"><a href="#" onclick="goPage(1);return false;"><img src="/images/common/icon_first.gif" alt="first page"/></a>
+<a href="#" onclick="return false;"><img src="/images/common/icon_prev.gif" alt="prev block"/></a>
+<span><a href="#" onclick="goPage(1);return false;" >1</a></span>
+<span><a href="#" onclick="goPage(2);return false;" >2</a></span>
+<span>3</span>
+<span><a href="#" onclick="goPage(4);return false;" >4</a></span>
+<span><a href="#" onclick="goPage(5);return false;" >5</a></span>
+<span><a href="#" onclick="goPage(6);return false;" >6</a></span>
+<a href="#" onclick="return false;"><img src="/images/common/icon_next.gif" alt="next block"/></a>
+<a href="#" onclick="goPage(6);return false;"><img src="/images/common/icon_end.gif" alt="last page"/></a></div>

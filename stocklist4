@@ -1,0 +1,403 @@
+<span class="count">
+
+[4 /
+6]
+[Total 266]
+</span>
+<p class="sort">
+  <a href="#sort"  onclick="goSort('/companyDirectory/search.ax','cmpy','ASC');return false;"><span>company</span></a>
+  <a href="#sort"  onclick="goSort('/companyDirectory/search.ax','symbol','ASC');return false;"><span>symbol</span></a>
+</p>
+<form id="listForm" name="listForm">
+  <input type="hidden" name="pageNo" id="pageNo" value=""/>
+  <input type="hidden" name="companyId" id="companyId" value=""/>
+  <input type="hidden" name="keyword" id="keyword" value=""/>
+  <input type="hidden" name="sortType" id="sortMode" value=""/>
+  <input type="hidden" name="dateSortType" id="dateSortType" value="DESC"/>
+  <input type="hidden" name="cmpySortType" id="cmpySortType" value="ASC"/>
+  <input type="hidden" name="symbolSortType" id="symbolSortType" value="ASC"/>
+  <input type="hidden" name="sector" id="sector" value="ALL"/>
+  <input type="hidden" name="subsector" id="subsector" value="ALL"/>
+</form>
+<table class="list">
+<colgroup>
+  <col width="35%"/>
+  <col width="10%"/>
+  <col width="15%"/>
+  <col width="30%"/>
+  <col width="10%"/>
+</colgroup>
+<thead>
+  <tr>
+    <th>Company Name</th>
+    <th>Stock Symbol</th>
+    <th>Sector</th>
+    <th>Subsector</th>
+    <th>Listing Date</th>
+  </tr>
+</thead>
+
+<tbody>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('119','328');return false;">Manila Mining Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('119','328');return false;">MA</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Dec 17, 1959</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('270','518');return false;">Manila Water Company, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('270','518');return false;">MWC</a></td>
+      <td>Industrial</td>
+      <td>Electricity, Energy, Power &amp; Water</td>
+      <td class="alignC">Mar 18, 2005</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('120','120');return false;">Manulife Financial Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('120','120');return false;">MFC</a></td>
+      <td>Financials</td>
+      <td>Other Financial Institutions</td>
+      <td class="alignC">Sep 27, 1999</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('175','177');return false;">Marcventures Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('175','177');return false;">MARC</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Jan 10, 1958</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('135','163');return false;">Max&#039;s Group, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('135','163');return false;">MAXS</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Dec 15, 2000</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('627','564');return false;">Megawide Construction Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('627','564');return false;">MWIDE</a></td>
+      <td>Industrial</td>
+      <td>Construction, Infra. &amp; Allied Services</td>
+      <td class="alignC">Feb 18, 2011</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('127','215');return false;">Megaworld Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('127','215');return false;">MEG</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Jun 15, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('202','237');return false;">Melco Crown (Philippines) Resorts Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('202','237');return false;">MCP</a></td>
+      <td>Services</td>
+      <td>Casinos &amp; Gaming</td>
+      <td class="alignC">Apr 02, 1991</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('3','241');return false;">Metro Alliance Holdings &amp; Equities Corp.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('3','241');return false;">MAH</a></td>
+      <td>Services</td>
+      <td>Transportation Services</td>
+      <td class="alignC">Dec 08, 1947</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('192','198');return false;">Metro Global Holdings Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('192','198');return false;">MGH</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">May 04, 1964</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('604','526');return false;">Metro Pacific Investments Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('604','526');return false;">MPI</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Dec 15, 2006</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('659','616');return false;">Metro Retail Stores Group, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('659','616');return false;">MRSGI</a></td>
+      <td>Services</td>
+      <td>Retail</td>
+      <td class="alignC">Nov 24, 2015</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('128','108');return false;">Metropolitan Bank &amp; Trust Company</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('128','108');return false;">MBT</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">Feb 26, 1981</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('105','214');return false;">Millennium Global Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('105','214');return false;">MG</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Mar 01, 1976</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('606','529');return false;">National Reinsurance Corporation of the Philippines</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('606','529');return false;">NRCP</a></td>
+      <td>Financials</td>
+      <td>Other Financial Institutions</td>
+      <td class="alignC">Apr 27, 2007</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('179','100');return false;">NextGenesis Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('179','100');return false;">NXGEN</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">Oct 08, 1996</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('103','213');return false;">NiHAO Mineral Resources International, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('103','213');return false;">NI</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Oct 03, 1990</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('625','561');return false;">Nickel Asia Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('625','561');return false;">NIKL</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Nov 22, 2010</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('264','510');return false;">Now Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('264','510');return false;">NOW</a></td>
+      <td>Services</td>
+      <td>Information Technology</td>
+      <td class="alignC">Jul 23, 2003</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('207','330');return false;">Omico Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('207','330');return false;">OM</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">May 02, 1969</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('616','541');return false;">Oriental Peninsula Resources Group, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('616','541');return false;">ORE</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Dec 19, 2007</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('43','338');return false;">Oriental Petroleum and Minerals Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('43','338');return false;">OPM</a></td>
+      <td>Mining and Oil</td>
+      <td>Oil</td>
+      <td class="alignC">Oct 14, 1970</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('20','189');return false;">PAL Holdings, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('20','189');return false;">PAL</a></td>
+      <td>Services</td>
+      <td>Transportation Services</td>
+      <td class="alignC">Jan 04, 1954</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('99','245');return false;">PICOP Resources, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('99','245');return false;">PCP</a></td>
+      <td>Industrial</td>
+      <td>Other Industrials</td>
+      <td class="alignC">Oct 29, 1973</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('8','413');return false;">PTFC Redevelopment Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('8','413');return false;">TFC</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Dec 19, 1955</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('605','528');return false;">Pacific Online Systems Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('605','528');return false;">LOTO</a></td>
+      <td>Services</td>
+      <td>Casinos &amp; Gaming</td>
+      <td class="alignC">Apr 12, 2007</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('109','342');return false;">Pacifica, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('109','342');return false;">PA</a></td>
+      <td>Holding Firms</td>
+      <td>Holding Firms</td>
+      <td class="alignC">Nov 23, 1959</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('104','239');return false;">Panasonic Manufacturing Philippines Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('104','239');return false;">PMPC</a></td>
+      <td>Industrial</td>
+      <td>Electrical Components &amp; Equipment</td>
+      <td class="alignC">Jan 21, 1983</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('194','195');return false;">Paxys, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('194','195');return false;">PAX</a></td>
+      <td>Services</td>
+      <td>Other Services</td>
+      <td class="alignC">Mar 22, 1971</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('617','543');return false;">Pepsi-Cola Products Philippines, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('617','543');return false;">PIP</a></td>
+      <td>Industrial</td>
+      <td>Food, Beverage &amp; Tobacco</td>
+      <td class="alignC">Feb 01, 2008</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('578','516');return false;">PetroEnergy Resources Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('578','516');return false;">PERC</a></td>
+      <td>Mining and Oil</td>
+      <td>Oil</td>
+      <td class="alignC">Aug 11, 2004</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('136','139');return false;">Petron Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('136','139');return false;">PCOR</a></td>
+      <td>Industrial</td>
+      <td>Electricity, Energy, Power &amp; Water</td>
+      <td class="alignC">Sep 07, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('122','136');return false;">PhilWeb Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('122','136');return false;">WEB</a></td>
+      <td>Services</td>
+      <td>Information Technology</td>
+      <td class="alignC">Dec 08, 1969</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('97','220');return false;">Philcomsat Holdings Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('97','220');return false;">PHC</a></td>
+      <td>Services</td>
+      <td>Other Services</td>
+      <td class="alignC">Nov 28, 1958</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('137','331');return false;">Philex Mining Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('137','331');return false;">PX</a></td>
+      <td>Mining and Oil</td>
+      <td>Mining</td>
+      <td class="alignC">Nov 23, 1956</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('628','566');return false;">Philex Petroleum Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('628','566');return false;">PXP</a></td>
+      <td>Mining and Oil</td>
+      <td>Oil</td>
+      <td class="alignC">Sep 12, 2011</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('208','110');return false;">Philippine Bank of Communications</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('208','110');return false;">PBC</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">May 12, 1988</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('640','583');return false;">Philippine Business Bank</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('640','583');return false;">PBB</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">Feb 19, 2013</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('138','310');return false;">Philippine Estates Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('138','310');return false;">PHES</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Jan 21, 1985</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('631','570');return false;">Philippine H2O Ventures Corp.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('631','570');return false;">H2O</a></td>
+      <td>Industrial</td>
+      <td>Electricity, Energy, Power &amp; Water</td>
+      <td class="alignC">Nov 24, 2011</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('6','134');return false;">Philippine Long Distance Telephone Company</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('6','134');return false;">TEL</a></td>
+      <td>Services</td>
+      <td>Telecommunications</td>
+      <td class="alignC">Sep 17, 1953</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('139','109');return false;">Philippine National Bank</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('139','109');return false;">PNB</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">Jun 21, 1989</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('7','151');return false;">Philippine National Construction Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('7','151');return false;">PNC</a></td>
+      <td>Industrial</td>
+      <td>Construction, Infra. &amp; Allied Services</td>
+      <td class="alignC">Mar 13, 1974</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('141','257');return false;">Philippine Racing Club, Inc.</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('141','257');return false;">PRC</a></td>
+      <td>Services</td>
+      <td>Casinos &amp; Gaming</td>
+      <td class="alignC">Mar 02, 1952</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('40','313');return false;">Philippine Realty and Holdings Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('40','313');return false;">RLT</a></td>
+      <td>Property</td>
+      <td>Property</td>
+      <td class="alignC">Sep 07, 1987</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('142','112');return false;">Philippine Savings Bank</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('142','112');return false;">PSB</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">Oct 10, 1994</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('143','251');return false;">Philippine Seven Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('143','251');return false;">SEVN</a></td>
+      <td>Services</td>
+      <td>Retail</td>
+      <td class="alignC">Feb 04, 1998</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('76','132');return false;">Philippine Telegraph and Telephone Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('76','132');return false;">PTT</a></td>
+      <td>Services</td>
+      <td>Telecommunications</td>
+      <td class="alignC">Jan 10, 1990</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('144','393');return false;">Philippine Trust Company</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('144','393');return false;">PTC</a></td>
+      <td>Financials</td>
+      <td>Banks</td>
+      <td class="alignC">Feb 17, 1988</td>
+    </tr>
+  <tr>
+      <td><a href="#company" onclick="cmDetail('107','184');return false;">Phinma Corporation</a></td>
+      <td class="alignC"><a href="#company" onclick="cmDetail('107','184');return false;">PHN</a></td>
+      <td>Industrial</td>
+      <td>Construction, Infra. &amp; Allied Services</td>
+      <td class="alignC">Aug 18, 1958</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="paging"><a href="#" onclick="goPage(1);return false;"><img src="/images/common/icon_first.gif" alt="first page"/></a>
+<a href="#" onclick="return false;"><img src="/images/common/icon_prev.gif" alt="prev block"/></a>
+<span><a href="#" onclick="goPage(1);return false;" >1</a></span>
+<span><a href="#" onclick="goPage(2);return false;" >2</a></span>
+<span><a href="#" onclick="goPage(3);return false;" >3</a></span>
+<span>4</span>
+<span><a href="#" onclick="goPage(5);return false;" >5</a></span>
+<span><a href="#" onclick="goPage(6);return false;" >6</a></span>
+<a href="#" onclick="return false;"><img src="/images/common/icon_next.gif" alt="next block"/></a>
+<a href="#" onclick="goPage(6);return false;"><img src="/images/common/icon_end.gif" alt="last page"/></a></div>
