@@ -1,2 +1,13 @@
-This contains a scraper for philippine stock exchange historical data, since it's hard to find an actual csv file for these data.
+![Python 2.7](https://img.shields.io/badge/python-2.7-blue.svg)
+![Python 3.5](https://img.shields.io/badge/python-3.5-blue.svg)
+![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
+## Philippine Stock Exchange Historical Data Scraper
 
+This contains the python code for retrieving Philippine publicly listed companies and getting their historical data.
+I developed this script to see if we can use machine learning to predict stock prices.
+
+Steps:
+1. Run the stockslist parser, `python stocklistparser.py`. 
+   This retrieves all the available companies from the office PSE portal edge.pse.com.ph and saves them to a csv file
+2. Run the data miner, `python historicaldatagetter.py`
+   This uses the saved stocklist, to retrieve the daily historical data containing opening and closing stock prices for each company, as well as the high and low prices.
